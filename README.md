@@ -42,3 +42,13 @@ It has been compiled into a stand-alone application using Kineme QuartzBuilder a
 
 As of _MacOS 10.14 OpenGL has been deprecated: future iterations of the software will require porting to Metal or platforms supporting OpenGL compatibility profiles. 
 
+**Limitations**
+
+**QC** is a deprecated meta-language. 
+
+QC provides an intuitive OpenGL/Objective-C/Javascript/OpenCL/ etc. procedural programming environment, with a live 'lazy execution' model, enabling exploratory programming.
+
+But it has distinct limits: notably its lack of support and development by Apple, which has developed no parallel Visual Programming Language (VPL) for Metal or MacOS.
+
+This is a very significant 'closing down' for visual programmers.
+
