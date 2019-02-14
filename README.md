@@ -1,9 +1,9 @@
-Gradient Designer (GD) is a real-time interactive 3D gradient design and colour mapping application for global geoscientific data on the MacOS platform. 
+<h1>Gradient Designer (GD)</h1> is a real-time interactive 3D gradient design and colour mapping application for global geoscientific data on the MacOS platform. 
 It is specifically designed for designing colourmaps for continuous data, such as global seismic data.
 
 It addresses these requirements through the following key features:
 
-Data Handling:
+<h1>Data Handling:</h1>
 
 •	Large local or remote datasets maybe be rapidly explored through an interactive 3D interface, that allows sequential overview of an entire dataset as well as zooming and panning to features of interest.
 
@@ -15,7 +15,7 @@ Data Handling:
 
 
 
-Colour Control:
+<h1>Colour Control:</h1>
 
 •	Four companion colour-space visualisation apps that provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
 
@@ -29,6 +29,15 @@ Colour Control:
 
 •	Alpha transparency control for 3D compositing/tomography
 
-Application Aims and Development Framework
 
-Gradient Designer (GD) provides an intuitive interface for a range of colour-mapping tasks, as it is agnostic about the nature of the incoming data: the assumption is that data has been pre-processed into whole-globe equirectangular 8-bit RGB JPEG or PNG black and white images, with known data ranges (where 0-255 represent known minima and maxima, linearly mapped to the underlying data, including alpha channel data if desired). The application is programmed in the MacOS Quartz Composer VPL, using a mixture of pre-defined QC processing nodes as well as custom routines programmed in C++, Javascript, OpenCL and OpenGL. It has been compiled into a stand-alone application using Kineme QuartzBuilder and Apple Xcode 9, targeting MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). As of MacOS 10.14 OpenGL has been deprecated: future iterations of the software may require porting to Metal or platforms supporting OpenGL compatibility profiles.
+<h1>Application Aims and Development Framework</h1>
+
+Gradient Designer (GD) provides an intuitive interface for a range of colour-mapping tasks, as it is agnostic about the nature of the incoming data: the assumption is that data has been pre-processed into whole-globe equirectangular 8-bit RGB JPEG or PNG black and white images, with known data ranges (where 0-255 represent known minima and maxima, linearly mapped to the underlying data, including alpha channel data if desired). 
+
+The application is programmed in the MacOS Quartz Composer VPL, using a mixture of pre-defined QC processing nodes as well as custom routines programmed in C++, Javascript, OpenCL and OpenGL. 
+
+It has been compiled into a stand-alone application using Kineme QuartzBuilder and Apple Xcode 10.1, targeting MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
+
+As of MacOS 10.14 OpenGL has been deprecated: future iterations of the software may require porting to Metal or platforms supporting OpenGL compatibility profiles. 
+
+Alternative implementations include Vuo or just doing it in C++.
