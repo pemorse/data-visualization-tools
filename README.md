@@ -1,25 +1,27 @@
 Gradient Designer
 =======
-**Gradient Designer** (GD)is a real-time interactive 3D gradient design and colour mapping application for global geoscientific data on the MacOS platform. 
-It is specifically designed for designing colourmaps for continuous data, such as global seismic data.
+**Gradient Designer** (GD)is an interactive gradient design and colour mapping application for geoscientific data on the MacOS platform. 
 
-It addresses these requirements through the following key features:
+It is intended for designing colourmaps for continuous data, such as global seismic data.
+
+Functions:
+======
 
 **Data Handling**:
 
-*Large local or remote datasets maybe be rapidly explored through an interactive 3D interface, that allows sequential overview of an entire dataset as well as zooming and panning to features of interest.
-*UI features a robust and clear relationship to known incoming data values and ranges.
-*Export of high-resolution colourised images derived from these large datasets.
-*Live real-time video sharing of colour gradient data to external client applications for display (e.g. on immersive visualisation systems).
+* Large local or remote datasets maybe be rapidly explored through an interactive 3D interface, that allows sequential overview of an entire dataset as well as zooming and panning to features of interest.
+* UI features a robust and clear relationship to known incoming data values and ranges.
+* Export of high-resolution colourised images derived from these large datasets.
+* Live real-time video sharing of colour gradient data to external client applications for display (e.g. on immersive visualisation systems).
 
 **Colour Control**:
 
-*Four companion colour-space visualisation apps that provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
-*Simple HSL slider UI manipulates RBG/sRGB (D65) gamut colours in 3D CIELAB/RGB/HSL/HCL colour spaces
-*Complex gradients may be designed that target specific values and ranges, including continuous linear, stepped-linear and non-continuous/non-contiguous ranges.
-*Import and export predefined gradients from other sources in a variety of formats (e.g. png, .cpt)
-*Re-colourise imported gradients in part or in whole, addressing specific ranges and metrics
-*Alpha transparency control for 3D compositing/tomography
+* Four companion colour-space visualisation apps that provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
+* Simple HSL slider UI manipulates RBG/sRGB (D65) gamut colours in 3D CIELAB/RGB/HSL/HCL colour spaces
+* Complex gradients may be designed that target specific values and ranges, including continuous linear, stepped-linear and non-continuous/non-contiguous ranges.
+* Import and export predefined gradients from other sources in a variety of formats (e.g. png, .cpt)
+* Re-colourise imported gradients in part or in whole, addressing specific ranges and metrics
+* Alpha transparency control for 3D compositing/tomography
 
 **Application Aims and Development Framework**
 
