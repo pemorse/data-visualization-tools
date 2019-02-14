@@ -27,10 +27,9 @@ It addresses these requirements through the following key features:
 
 It is agnostic about the nature of the incoming data: the assumption is that data has been pre-processed into whole-globe equirectangular 8-bit RGB JPEG or PNG black and white images, with known data ranges (where 0-255 represent known minima and maxima, linearly mapped to the underlying data, including alpha channel data if desired). 
 
-The application is programmed in the MacOS **Quartz Composer** [link][https://developer.apple.com/documentation/quartz/quartz_composer] VPL, using a mixture of pre-defined QC processing nodes as well as custom routines programmed in C++, Javascript, OpenCL and OpenGL. 
+The application is programmed in the MacOS **Quartz Composer (QC)** [link][https://developer.apple.com/documentation/quartz/quartz_composer] VPL, using a mixture of pre-defined QC processing nodes as well as custom routines programmed in Objective-C, Javascript, OpenCL and OpenGL. 
 
-It has been compiled into a stand-alone application using Kineme QuartzBuilder and Apple Xcode 10.1, targeting MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
+It has been compiled into a stand-alone application using Kineme QuartzBuilder and Apple Xcode 10.1, targeting **MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
 
-As of MacOS 10.14 OpenGL has been deprecated: future iterations of the software may require porting to Metal or platforms supporting OpenGL compatibility profiles. 
+As of _MacOS 10.14 OpenGL has been deprecated: future iterations of the software will require porting to Metal or platforms supporting OpenGL compatibility profiles. 
 
-Alternative implementations include Vuo or just doing it in C++.
