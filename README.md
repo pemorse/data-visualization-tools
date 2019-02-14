@@ -5,14 +5,14 @@ It is specifically designed for designing colourmaps for continuous data, such a
 
 It addresses these requirements through the following key features:
 
-##Data Handling:
+**Data Handling**:
 
 *Large local or remote datasets maybe be rapidly explored through an interactive 3D interface, that allows sequential overview of an entire dataset as well as zooming and panning to features of interest.
 *UI features a robust and clear relationship to known incoming data values and ranges.
 *Export of high-resolution colourised images derived from these large datasets.
 *Live real-time video sharing of colour gradient data to external client applications for display (e.g. on immersive visualisation systems).
 
-##Colour Control:
+**Colour Control**:
 
 *Four companion colour-space visualisation apps that provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
 *Simple HSL slider UI manipulates RBG/sRGB (D65) gamut colours in 3D CIELAB/RGB/HSL/HCL colour spaces
@@ -21,7 +21,7 @@ It addresses these requirements through the following key features:
 *Re-colourise imported gradients in part or in whole, addressing specific ranges and metrics
 *Alpha transparency control for 3D compositing/tomography
 
-##Application Aims and Development Framework
+**Application Aims and Development Framework**
 
 **GD** and its companion apps aim to provide an intuitive interface for a range of colour-mapping tasks.
 
