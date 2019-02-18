@@ -6,6 +6,8 @@ It is intended for designing colourmaps for continuous data, such as global seis
 
 Four companion colour-space visualisation apps provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
 
+Note: For multi-monitor systems, GD and companion apps must operate on monitors using the same ICC profile.
+
 Functions:
 ======
 
