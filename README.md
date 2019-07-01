@@ -42,6 +42,7 @@ The application is programmed in the MacOS **Quartz Composer (QC)** [link][https
 
 
 **Limitations**
+
 GD and companion apps have been compiled into a stand-alone applications using Kineme QuartzBuilder and Apple Xcode 10.1, targeting **MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
 
 As of _MacOS 10.14 OpenGL has been deprecated: future iterations of the software will require porting to Metal or platforms supporting OpenGL compatibility profiles. 
