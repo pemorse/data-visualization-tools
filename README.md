@@ -1,4 +1,6 @@
 Gradient Designer
+
+[![DOI](https://zenodo.org/badge/194572076.svg)](https://zenodo.org/badge/latestdoi/194572076)
 =======
 **Gradient Designer** (GD)is an interactive gradient design and colour mapping application for geoscientific data on the MacOS platform. 
 
@@ -40,15 +42,12 @@ It is agnostic about the nature of the incoming data: the assumption is that dat
 
 The application is programmed in the MacOS **Quartz Composer (QC)** [link][https://developer.apple.com/documentation/quartz/quartz_composer] VPL, using a mixture of pre-defined QC processing nodes as well as custom routines programmed in Objective-C, Javascript, OpenCL and OpenGL. 
 
-It has been compiled into a stand-alone application using Kineme QuartzBuilder and Apple Xcode 10.1, targeting **MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
-
-As of _MacOS 10.14 OpenGL has been deprecated: future iterations of the software will require porting to Metal or platforms supporting OpenGL compatibility profiles. 
 
 **Limitations**
 
-**QC** 
+GD and companion apps have been compiled into a stand-alone applications using Kineme QuartzBuilder and Apple Xcode 10.1, targeting **MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave). 
 
-QC provides an intuitive OpenGL/Objective-C/Javascript/OpenCL/ etc. procedural programming environment, with a live 'lazy execution' model, enabling exploratory programming.
+As of _MacOS 10.14 OpenGL has been deprecated: future iterations of the software will require porting to Metal or platforms supporting OpenGL compatibility profiles. 
 
 
 
