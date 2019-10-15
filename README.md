@@ -2,6 +2,8 @@ Gradient Designer
 
 [![DOI](https://zenodo.org/badge/194572076.svg)](https://zenodo.org/badge/latestdoi/194572076)
 =======
+
+
 **Gradient Designer** (GD)is an interactive gradient design and colour mapping application for geoscientific data on the MacOS platform. 
 
 It is intended for designing colourmaps for continuous data, such as global seismic data.
