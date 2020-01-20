@@ -1,4 +1,4 @@
-Gradient Designer:
+Gradient Designer Suite:
 =======
 
 [![DOI](https://zenodo.org/badge/194572076.svg)](https://zenodo.org/badge/latestdoi/194572076)
@@ -7,9 +7,19 @@ Gradient Designer:
 [![VIDEO DEMO](/Support_Files/GD_LAB_CM_GV_LAB_demo.png "Video Demo")](https://vimeo.com/366616654)
 =======
 
-**Gradient Designer** (GD)is an interactive gradient design and colour mapping application for geoscientific data on the MacOS platform.
+**Gradient Designer Suite** (GD)is a suite of interactive gradient design and colour mapping applications for visualizing geoscientific data on the MacOS platform.
 
-It is intended for designing colourmaps for continuous data, such as global seismic data.
+The applications are:
+1] GD : Gradient Designer
+2] PDT_V: Planetary Data Tagger - Volumetric
+3] LAB_CM : LAB color mixer
+4] GV_LAB : Gradient Visualizer CIELAB colorspace
+5] GV_RGB : Gradient Visualizer RGB colorspace
+6] GV_HSL : Gradient Visualizer HSL colorspace
+7] GV_HCL : Gradient Visualizer HCL colorspace
+8] ImP : Immersive Player
+
+They are intended for designing colourmaps for continuous data, such as global seismic data, and for standard 2D and immersive (Dome) screen display.
 
 Four companion colour-space visualisation apps provide live monitoring of gradient path traversal in CIELAB, RGB, HSL and HCL colour spaces.
 
@@ -56,3 +66,5 @@ The software targets average color perception and does not currently compensate 
 GD and companion apps have been compiled into a stand-alone applications using Kineme QuartzBuilder and Apple Xcode 10.1, targeting **MacOS 10.13.6 (High Sierra) and MacOS 10.14 (Mojave).
 
 As of MacOS 10.14 OpenGL has been deprecated: future iterations of the software may require porting to Metal or platforms supporting OpenGL compatibility profiles.
+
+This is alpha-release research software, use at your own risk.
