@@ -10,8 +10,11 @@ Gradient Designer Suite:
 **Gradient Designer Suite** (GD)is a suite of interactive gradient design and colour mapping applications for visualizing geoscientific data on the MacOS platform.
 
 The applications are:
+
 1] GD : Gradient Designer
+
 2] PDT_V: Planetary Data Tagger - Volumetric
+
 3] LAB_CM : LAB color mixer
 4] GV_LAB : Gradient Visualizer CIELAB colorspace
 5] GV_RGB : Gradient Visualizer RGB colorspace
