@@ -16,10 +16,15 @@ The applications are:
 2] PDT_V: Planetary Data Tagger - Volumetric
 
 3] LAB_CM : LAB color mixer
+
 4] GV_LAB : Gradient Visualizer CIELAB colorspace
+
 5] GV_RGB : Gradient Visualizer RGB colorspace
+
 6] GV_HSL : Gradient Visualizer HSL colorspace
+
 7] GV_HCL : Gradient Visualizer HCL colorspace
+
 8] ImP : Immersive Player
 
 They are intended for designing colourmaps for continuous data, such as global seismic data, and for standard 2D and immersive (Dome) screen display.
